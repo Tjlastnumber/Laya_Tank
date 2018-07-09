@@ -23,10 +23,6 @@ class TankMovement extends Laya.Script {
     }
 
     protected move(elapsedTime: number): void {
-
-        // var forward = Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.W) ? -1 : 
-        //               Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.S) ? 1 : 0;
-        // var forward = this.getVerticalForce(elapsedTime);
         var forward = this._getVerticalForce(elapsedTime);
                       
         var x = this._tank.transform.forward.x * this._moveSpeed * elapsedTime / 1000 * forward;
@@ -38,8 +34,6 @@ class TankMovement extends Laya.Script {
     }
 
     protected trun(elapsedTime: number): void {
-        // var forward = Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.A) ? 1 :
-        //               Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.D) ? -1 : 0;
         var forward = this._getHorizontalForce(elapsedTime);
 
         var turn:number = forward * this._trunSpeed * elapsedTime / 1000;
