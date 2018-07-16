@@ -11,9 +11,9 @@
 		"depthWrite":true,
 		"depthTest":513,
 		"renderQueue":1,
-		"albedoIntensity":1,
+		"albedoIntensity":1.72,
 		"enableLighting":true,
-		"shininess":0.078125,
+		"shininess":0.073,
 		"textures":[],
 		"vectors":[
 			{

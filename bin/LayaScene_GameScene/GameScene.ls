@@ -241,9 +241,9 @@
 						],
 						"rotation":[
 							0,
-							-1,
+							1,
 							0,
-							-4.321336E-07
+							4.321336E-07
 						],
 						"scale":[
 							1,
@@ -290,9 +290,9 @@
 						],
 						"rotation":[
 							0,
-							-0.7071073,
+							0.7071072,
 							0,
-							0.7071064
+							-0.7071063
 						],
 						"scale":[
 							1,
@@ -403,9 +403,9 @@
 						],
 						"rotation":[
 							0,
-							-0.9481856,
+							0.9481856,
 							0,
-							-0.3177171
+							0.317717
 						],
 						"scale":[
 							1.353951,
@@ -438,9 +438,9 @@
 						],
 						"rotation":[
 							0,
-							-0.9860179,
+							0.9860179,
 							0,
-							0.1666393
+							-0.1666393
 						],
 						"scale":[
 							1,
@@ -508,9 +508,9 @@
 						],
 						"rotation":[
 							0,
-							-0.1331048,
+							0.1331048,
 							0,
-							0.991102
+							-0.991102
 						],
 						"scale":[
 							1.353951,
@@ -543,14 +543,14 @@
 						],
 						"rotation":[
 							0,
-							-0.899085,
+							0.899085,
 							0,
-							-0.4377742
+							0.4377741
 						],
 						"scale":[
+							1.353952,
 							1.353951,
-							1.353951,
-							1.353951
+							1.353952
 						],
 						"meshPath":"Assets/Models/Concrete-Tarmac.lm",
 						"materials":[
@@ -613,9 +613,9 @@
 						],
 						"rotation":[
 							0,
-							-0.1331048,
+							0.1331048,
 							0,
-							0.991102
+							-0.991102
 						],
 						"scale":[
 							1.353951,
@@ -650,7 +650,7 @@
 							0,
 							0.1599057,
 							0,
-							-0.9871324
+							-0.9871323
 						],
 						"scale":[
 							1.353951,
@@ -683,9 +683,9 @@
 						],
 						"rotation":[
 							0,
-							-0.4234604,
+							-0.4234605,
 							0,
-							-0.9059147
+							-0.9059146
 						],
 						"scale":[
 							1.353951,
@@ -747,12 +747,12 @@
 						],
 						"rotation":[
 							0,
-							-0.651865,
+							-0.6518649,
 							0,
-							-0.7583351
+							-0.758335
 						],
 						"scale":[
-							0.666841,
+							0.6668411,
 							0.4140007,
 							0.666841
 						],
@@ -782,14 +782,14 @@
 						],
 						"rotation":[
 							0,
-							-0.8397465,
+							0.8397464,
 							0,
-							0.5429788
+							-0.5429787
 						],
 						"scale":[
-							0.7698195,
+							0.7698196,
 							0.3195193,
-							0.7698198
+							0.7698199
 						],
 						"meshPath":"Assets/Models/Dunes01-Dunes01.lm",
 						"materials":[
@@ -817,14 +817,14 @@
 						],
 						"rotation":[
 							0,
-							-0.741907,
+							0.741907,
 							0,
-							0.6705029
+							-0.6705028
 						],
 						"scale":[
-							0.6551204,
+							0.6551206,
 							0.4803014,
-							0.6551205
+							0.6551206
 						],
 						"meshPath":"Assets/Models/Dunes01-Dunes01.lm",
 						"materials":[
@@ -854,12 +854,12 @@
 							0,
 							-0.4255604,
 							0,
-							-0.9049301
+							-0.90493
 						],
 						"scale":[
-							0.6735277,
+							0.6735278,
 							0.4102584,
-							0.6735277
+							0.6735278
 						],
 						"meshPath":"Assets/Models/Dunes01-Dunes01.lm",
 						"materials":[
@@ -892,7 +892,7 @@
 							-0.7860472
 						],
 						"scale":[
-							0.666841,
+							0.6668411,
 							0.2142466,
 							0.666841
 						],
@@ -922,9 +922,9 @@
 						],
 						"rotation":[
 							0,
-							0.6376932,
+							-0.6376932,
 							0,
-							0.7702905
+							-0.7702905
 						],
 						"scale":[
 							0.6551204,
@@ -994,12 +994,12 @@
 							0,
 							0.5425392,
 							0,
-							-0.8400305
+							-0.8400304
 						],
 						"scale":[
 							0.7698196,
 							0.3195193,
-							0.7698197
+							0.7698198
 						],
 						"meshPath":"Assets/Models/Dunes01-Dunes01.lm",
 						"materials":[
@@ -1027,12 +1027,12 @@
 						],
 						"rotation":[
 							0,
-							-0.651865,
+							-0.6518649,
 							0,
-							-0.7583351
+							-0.758335
 						],
 						"scale":[
-							0.666841,
+							0.6668411,
 							0.5349015,
 							0.666841
 						],
@@ -1062,12 +1062,12 @@
 						],
 						"rotation":[
 							0,
-							-0.7909588,
+							0.7909588,
 							0,
-							0.6118695
+							-0.6118695
 						],
 						"scale":[
-							0.6551204,
+							0.6551205,
 							0.2940844,
 							0.6551208
 						],
@@ -1097,9 +1097,9 @@
 						],
 						"rotation":[
 							0,
-							-0.6033204,
+							0.6033204,
 							0,
-							0.7974989
+							-0.7974989
 						],
 						"scale":[
 							0.7698196,
@@ -1132,14 +1132,14 @@
 						],
 						"rotation":[
 							0,
-							-0.9592364,
+							0.9592364,
 							0,
-							0.2826048
+							-0.2826048
 						],
 						"scale":[
-							0.666841,
+							0.6668411,
 							0.5349015,
-							0.666841
+							0.6668411
 						],
 						"meshPath":"Assets/Models/Dunes01-Dunes01.lm",
 						"materials":[
@@ -1169,7 +1169,7 @@
 							0,
 							-0.3825489,
 							0,
-							-0.9239353
+							-0.9239352
 						],
 						"scale":[
 							0.666841,
@@ -1204,7 +1204,7 @@
 							0,
 							-0.5518343,
 							0,
-							-0.8339538
+							-0.8339537
 						],
 						"scale":[
 							1,
@@ -1239,7 +1239,7 @@
 							0,
 							-0.58134,
 							0,
-							-0.8136608
+							-0.8136607
 						],
 						"scale":[
 							1,
@@ -1309,7 +1309,7 @@
 							0,
 							-0.3907928,
 							0,
-							-0.9204787
+							-0.9204788
 						],
 						"scale":[
 							1,
@@ -1342,9 +1342,9 @@
 						],
 						"rotation":[
 							0,
-							-0.8834683,
+							0.8834683,
 							0,
-							0.468491
+							-0.468491
 						],
 						"scale":[
 							1,
@@ -1484,7 +1484,7 @@
 							0,
 							0.7981335,
 							0,
-							-0.6024808
+							-0.6024806
 						],
 						"scale":[
 							1.25,
@@ -1503,14 +1503,14 @@
 						"BoxCollider":{
 							"isTrigger":false,
 							"center":[
-								-0.01662029,
-								0.1232906,
-								0.1314098
+								-0.01668879,
+								0.2662912,
+								-0.02047492
 							],
 							"size":[
-								0.9361269,
-								0.439643,
-								1.313006
+								0.9361275,
+								0.7256442,
+								2.253767
 							]
 						}
 					},
@@ -1530,10 +1530,10 @@
 							-16.104
 						],
 						"rotation":[
-							-0.0422939,
-							0.8434063,
+							-0.04229389,
+							0.8434064,
 							-0.1426119,
-							-0.5162739
+							-0.516274
 						],
 						"scale":[
 							1.25,
@@ -1597,7 +1597,7 @@
 							0,
 							0.5303293,
 							0,
-							-0.8477918
+							-0.8477917
 						],
 						"scale":[
 							0.7001373,
@@ -1659,7 +1659,7 @@
 							0,
 							0.9351957,
 							0,
-							-0.3541313
+							-0.3541312
 						],
 						"scale":[
 							0.7389382,
@@ -1721,12 +1721,12 @@
 							0,
 							0.9954767,
 							0,
-							0.09500644
+							0.09500642
 						],
 						"scale":[
+							0.7001374,
 							0.7001373,
-							0.7001373,
-							0.7001373
+							0.7001374
 						],
 						"meshPath":"Assets/Models/Rocks01-Rocks01.lm",
 						"materials":[
@@ -1910,9 +1910,9 @@
 							-0.2316146
 						],
 						"scale":[
+							0.5956389,
 							0.5956388,
-							0.5956388,
-							0.5956388
+							0.5956389
 						],
 						"meshPath":"Assets/Models/Rocks03-Rocks03.lm",
 						"materials":[
@@ -2070,9 +2070,9 @@
 							-0.5369459
 						],
 						"scale":[
-							0.6821688,
+							0.682169,
 							0.6821689,
-							0.682169
+							0.6821691
 						],
 						"meshPath":"Assets/Models/Rocks02-Rocks02.lm",
 						"materials":[
@@ -2114,9 +2114,9 @@
 						],
 						"rotation":[
 							0,
-							-0.770319,
+							-0.7703191,
 							0,
-							-0.6376588
+							-0.6376587
 						],
 						"scale":[
 							1,
@@ -2163,14 +2163,14 @@
 						],
 						"rotation":[
 							0,
-							-0.9990503,
+							0.9990503,
 							0,
-							-0.04357302
+							0.04357301
 						],
 						"scale":[
-							0.8434314,
+							0.8434316,
 							0.8434315,
-							0.8434315
+							0.8434317
 						],
 						"meshPath":"Assets/Models/Rocks02-Rocks02.lm",
 						"materials":[
@@ -2263,7 +2263,7 @@
 							0,
 							0.2872583,
 							0,
-							-0.9578532
+							-0.9578531
 						],
 						"scale":[
 							1,
@@ -2387,11 +2387,11 @@
 							0.1959584,
 							-0.0214834,
 							0.9796957,
-							0.03653907
+							0.03653906
 						],
 						"scale":[
-							0.9171765,
 							0.9171767,
+							0.9171768,
 							0.9171765
 						],
 						"meshPath":"Assets/Models/Rocks03-Rocks03.lm",
@@ -2447,7 +2447,7 @@
 						],
 						"rotation":[
 							0,
-							0.9771302,
+							0.9771301,
 							0,
 							-0.2126421
 						],
@@ -2508,15 +2508,15 @@
 							28.61904
 						],
 						"rotation":[
-							0.1232715,
+							0.1232716,
 							0.6848941,
-							-0.07289414,
+							-0.07289413,
 							-0.7144303
 						],
 						"scale":[
 							0.5422304,
 							0.5422304,
-							0.5422305
+							0.5422306
 						],
 						"meshPath":"Assets/Models/Rocks03-Rocks03.lm",
 						"materials":[
@@ -2572,13 +2572,13 @@
 						"rotation":[
 							0.1120245,
 							0.9115389,
-							0.08921874,
+							0.08921871,
 							0.3854704
 						],
 						"scale":[
-							0.5422303,
+							0.5422304,
 							0.5422302,
-							0.5422305
+							0.5422306
 						],
 						"meshPath":"Assets/Models/Rocks03-Rocks03.lm",
 						"materials":[
@@ -2632,9 +2632,9 @@
 							-37.33
 						],
 						"rotation":[
-							-1.420229E-09,
+							-1.420231E-09,
 							0.3255849,
-							8.144797E-08,
+							8.144798E-08,
 							-0.9455128
 						],
 						"scale":[
@@ -2651,6 +2651,19 @@
 						]
 					},
 					"components":{
+						"BoxCollider":{
+							"isTrigger":false,
+							"center":[
+								0.1361232,
+								5.436563,
+								-0.4096073
+							],
+							"size":[
+								8.901694,
+								12.88177,
+								8.558813
+							]
+						},
 						"Animator":{
 							"avatar":{
 								"path":"Assets/Models/Column01-Column01-Column01Avatar.lav",
@@ -2676,10 +2689,10 @@
 							32.06
 						],
 						"rotation":[
-							-5.351485E-08,
-							-0.8751875,
-							-6.141621E-08,
-							0.483784
+							5.351484E-08,
+							0.8751875,
+							6.14162E-08,
+							-0.4837839
 						],
 						"scale":[
 							1,
@@ -2720,13 +2733,13 @@
 							11.05
 						],
 						"rotation":[
-							2.322436E-08,
-							-0.05991883,
-							-7.807955E-08,
-							0.9982033
+							-2.322436E-08,
+							0.05991883,
+							7.807955E-08,
+							-0.9982032
 						],
 						"scale":[
-							0.856863,
+							0.8568631,
 							0.8568633,
 							0.8568634
 						],
@@ -2915,14 +2928,14 @@
 						],
 						"rotation":[
 							0,
-							-0.9616277,
+							0.9616276,
 							0,
-							-0.2743582
+							0.2743581
 						],
 						"scale":[
-							0.8384433,
+							0.8384436,
 							0.8384432,
-							0.8384432
+							0.8384435
 						],
 						"meshPath":"Assets/Models/Column02-Column02.lm",
 						"materials":[
@@ -2991,17 +3004,586 @@
 			]
 		},
 		{
-			"type":"Sprite3D",
+			"type":"MeshSprite3D",
 			"props":{
 				"isStatic":true,
-				"name":"Military"
+				"name":"Building01"
 			},
 			"customProps":{
 				"layer":0,
 				"translate":[
+					-8.1,
 					0,
+					7.4
+				],
+				"rotation":[
 					0,
-					0
+					-0.6425573,
+					0,
+					-0.7662376
+				],
+				"scale":[
+					1,
+					1,
+					1
+				],
+				"meshPath":"Assets/Models/Building01-Building01.lm",
+				"materials":[
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingWhite.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGrey.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingMetal.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGlass.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingStone.lmat"
+					}
+				]
+			},
+			"components":{
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.01949681,
+						1.390417,
+						0.2770226
+					],
+					"size":[
+						3.129945,
+						2.937592,
+						4.60307
+					]
+				}
+			},
+			"child":[]
+		},
+		{
+			"type":"MeshSprite3D",
+			"props":{
+				"isStatic":true,
+				"name":"Building01 (1)"
+			},
+			"customProps":{
+				"layer":0,
+				"translate":[
+					-12,
+					0,
+					14
+				],
+				"rotation":[
+					0,
+					0.996989,
+					0,
+					0.07754345
+				],
+				"scale":[
+					1,
+					1,
+					1
+				],
+				"meshPath":"Assets/Models/Building01-Building01.lm",
+				"materials":[
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingWhite.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGrey.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingMetal.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGlass.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingStone.lmat"
+					}
+				]
+			},
+			"components":{
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.01949681,
+						1.390417,
+						0.2770226
+					],
+					"size":[
+						3.129945,
+						2.937592,
+						4.60307
+					]
+				},
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						2.105466,
+						0.7685058,
+						-0.3308745
+					],
+					"size":[
+						1.199753,
+						1.693769,
+						2.020195
+					]
+				},
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.01949681,
+						1.390417,
+						0.2770226
+					],
+					"size":[
+						3.129945,
+						2.937592,
+						4.60307
+					]
+				}
+			},
+			"child":[]
+		},
+		{
+			"type":"MeshSprite3D",
+			"props":{
+				"isStatic":true,
+				"name":"Building01 (2)"
+			},
+			"customProps":{
+				"layer":0,
+				"translate":[
+					-0.45,
+					0,
+					35.71
+				],
+				"rotation":[
+					0,
+					-0.7430813,
+					0,
+					0.6692012
+				],
+				"scale":[
+					1,
+					1,
+					1
+				],
+				"meshPath":"Assets/Models/Building01-Building01.lm",
+				"materials":[
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingWhite.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGrey.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingMetal.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGlass.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingStone.lmat"
+					}
+				]
+			},
+			"components":{
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.01949681,
+						1.390417,
+						0.2770226
+					],
+					"size":[
+						3.129945,
+						2.937592,
+						4.60307
+					]
+				},
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						2.105466,
+						0.7685058,
+						-0.3308745
+					],
+					"size":[
+						1.199753,
+						1.693769,
+						2.020195
+					]
+				},
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.01949681,
+						1.390417,
+						0.2770226
+					],
+					"size":[
+						3.129945,
+						2.937592,
+						4.60307
+					]
+				}
+			},
+			"child":[]
+		},
+		{
+			"type":"MeshSprite3D",
+			"props":{
+				"isStatic":true,
+				"name":"Building01 (3)"
+			},
+			"customProps":{
+				"layer":0,
+				"translate":[
+					22.53,
+					0,
+					-25.22
+				],
+				"rotation":[
+					0,
+					0.528323,
+					0,
+					0.8490435
+				],
+				"scale":[
+					1,
+					1,
+					1
+				],
+				"meshPath":"Assets/Models/Building01-Building01.lm",
+				"materials":[
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingWhite.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGrey.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingMetal.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGlass.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingStone.lmat"
+					}
+				]
+			},
+			"components":{
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.01949681,
+						1.390417,
+						0.2770226
+					],
+					"size":[
+						3.129945,
+						2.937592,
+						4.60307
+					]
+				},
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						2.105466,
+						0.7685058,
+						-0.3308745
+					],
+					"size":[
+						1.199753,
+						1.693769,
+						2.020195
+					]
+				},
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.01949681,
+						1.390417,
+						0.2770226
+					],
+					"size":[
+						3.129945,
+						2.937592,
+						4.60307
+					]
+				}
+			},
+			"child":[]
+		},
+		{
+			"type":"MeshSprite3D",
+			"props":{
+				"isStatic":true,
+				"name":"Building02"
+			},
+			"customProps":{
+				"layer":0,
+				"translate":[
+					-1.34,
+					0,
+					10.16
+				],
+				"rotation":[
+					1.424541E-08,
+					-0.7599043,
+					1.657537E-08,
+					0.650035
+				],
+				"scale":[
+					1,
+					1,
+					1
+				],
+				"meshPath":"Assets/Models/Building02-Barracks.lm",
+				"materials":[
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingWhite.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGlass.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGrey.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingMetal.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingStone.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/OilDrums.lmat"
+					}
+				]
+			},
+			"components":{
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.5452382,
+						1.339948,
+						-0.5395352
+					],
+					"size":[
+						7.132517,
+						2.836653,
+						4.145877
+					]
+				},
+				"Animator":{
+					"avatar":{
+						"path":"Assets/Models/Building02-Building02-Building02Avatar.lav",
+						"linkSprites":{}
+					},
+					"clipPaths":[],
+					"playOnWake":true
+				}
+			},
+			"child":[]
+		},
+		{
+			"type":"MeshSprite3D",
+			"props":{
+				"isStatic":true,
+				"name":"Building02 (1)"
+			},
+			"customProps":{
+				"layer":0,
+				"translate":[
+					5.66,
+					0,
+					12.26
+				],
+				"rotation":[
+					1.928034E-08,
+					-0.6510388,
+					-1.029285E-08,
+					-0.7590445
+				],
+				"scale":[
+					1,
+					1,
+					1
+				],
+				"meshPath":"Assets/Models/Building02-Barracks.lm",
+				"materials":[
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingWhite.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGlass.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGrey.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingMetal.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingStone.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/OilDrums.lmat"
+					}
+				]
+			},
+			"components":{
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.5768968,
+						1.339948,
+						-0.5422933
+					],
+					"size":[
+						7.161574,
+						2.836653,
+						4.14037
+					]
+				},
+				"Animator":{
+					"avatar":{
+						"path":"Assets/Models/Building02-Building02 (1)-Building02Avatar.lav",
+						"linkSprites":{}
+					},
+					"clipPaths":[],
+					"playOnWake":true
+				}
+			},
+			"child":[]
+		},
+		{
+			"type":"MeshSprite3D",
+			"props":{
+				"isStatic":true,
+				"name":"Building02 (2)"
+			},
+			"customProps":{
+				"layer":0,
+				"translate":[
+					-8.56,
+					0,
+					36.32
+				],
+				"rotation":[
+					1.950111E-08,
+					-0.6675044,
+					-9.868178E-09,
+					-0.7446059
+				],
+				"scale":[
+					1,
+					1,
+					1
+				],
+				"meshPath":"Assets/Models/Building02-Barracks.lm",
+				"materials":[
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingWhite.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGlass.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingGrey.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingMetal.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingStone.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/OilDrums.lmat"
+					}
+				]
+			},
+			"components":{
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						-0.5768968,
+						1.339948,
+						-0.5422933
+					],
+					"size":[
+						7.161574,
+						2.836653,
+						4.14037
+					]
+				},
+				"Animator":{
+					"avatar":{
+						"path":"Assets/Models/Building02-Building02 (2)-Building02Avatar.lav",
+						"linkSprites":{}
+					},
+					"clipPaths":[],
+					"playOnWake":true
+				}
+			},
+			"child":[]
+		},
+		{
+			"type":"MeshSprite3D",
+			"props":{
+				"isStatic":true,
+				"name":"Radar"
+			},
+			"customProps":{
+				"layer":0,
+				"translate":[
+					-6.97,
+					0,
+					21.34
 				],
 				"rotation":[
 					0,
@@ -3013,645 +3595,70 @@
 					1,
 					1,
 					1
+				],
+				"meshPath":"Assets/Models/Radar-RadarSphere.lm",
+				"materials":[
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingWhite.lmat"
+					},
+					{
+						"type":"Laya.BlinnPhongMaterial",
+						"path":"Assets/Materials/BuildingMetal.lmat"
+					}
 				]
 			},
 			"components":{},
-			"child":[
-				{
-					"type":"MeshSprite3D",
-					"props":{
-						"isStatic":true,
-						"name":"Building01"
-					},
-					"customProps":{
-						"layer":0,
-						"translate":[
-							-8.1,
-							0,
-							7.4
-						],
-						"rotation":[
-							0,
-							-0.6425573,
-							0,
-							-0.7662376
-						],
-						"scale":[
-							1,
-							1,
-							1
-						],
-						"meshPath":"Assets/Models/Building01-Building01.lm",
-						"materials":[
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingWhite.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGrey.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingMetal.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGlass.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingStone.lmat"
-							}
-						]
-					},
-					"components":{
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								0.5970607,
-								2.007563,
-								-1.251213
-							],
-							"size":[
-								0.9665954,
-								4.171883,
-								1.014279
-							]
-						},
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								2.105466,
-								0.7685058,
-								-0.3308745
-							],
-							"size":[
-								1.199753,
-								1.693769,
-								2.020195
-							]
-						},
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.01949681,
-								1.390417,
-								0.2770226
-							],
-							"size":[
-								3.129945,
-								2.937592,
-								4.60307
-							]
-						}
-					},
-					"child":[]
-				},
-				{
-					"type":"MeshSprite3D",
-					"props":{
-						"isStatic":true,
-						"name":"Building01 (1)"
-					},
-					"customProps":{
-						"layer":0,
-						"translate":[
-							-12,
-							0,
-							14
-						],
-						"rotation":[
-							0,
-							0.996989,
-							0,
-							0.07754345
-						],
-						"scale":[
-							1,
-							1,
-							1
-						],
-						"meshPath":"Assets/Models/Building01-Building01.lm",
-						"materials":[
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingWhite.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGrey.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingMetal.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGlass.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingStone.lmat"
-							}
-						]
-					},
-					"components":{
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.01949681,
-								1.390417,
-								0.2770226
-							],
-							"size":[
-								3.129945,
-								2.937592,
-								4.60307
-							]
-						},
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								2.105466,
-								0.7685058,
-								-0.3308745
-							],
-							"size":[
-								1.199753,
-								1.693769,
-								2.020195
-							]
-						},
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.01949681,
-								1.390417,
-								0.2770226
-							],
-							"size":[
-								3.129945,
-								2.937592,
-								4.60307
-							]
-						}
-					},
-					"child":[]
-				},
-				{
-					"type":"MeshSprite3D",
-					"props":{
-						"isStatic":true,
-						"name":"Building01 (2)"
-					},
-					"customProps":{
-						"layer":0,
-						"translate":[
-							-0.45,
-							0,
-							35.71
-						],
-						"rotation":[
-							0,
-							-0.7430813,
-							0,
-							0.6692012
-						],
-						"scale":[
-							1,
-							1,
-							1
-						],
-						"meshPath":"Assets/Models/Building01-Building01.lm",
-						"materials":[
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingWhite.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGrey.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingMetal.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGlass.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingStone.lmat"
-							}
-						]
-					},
-					"components":{
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.01949681,
-								1.390417,
-								0.2770226
-							],
-							"size":[
-								3.129945,
-								2.937592,
-								4.60307
-							]
-						},
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								2.105466,
-								0.7685058,
-								-0.3308745
-							],
-							"size":[
-								1.199753,
-								1.693769,
-								2.020195
-							]
-						},
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.01949681,
-								1.390417,
-								0.2770226
-							],
-							"size":[
-								3.129945,
-								2.937592,
-								4.60307
-							]
-						}
-					},
-					"child":[]
-				},
-				{
-					"type":"MeshSprite3D",
-					"props":{
-						"isStatic":true,
-						"name":"Building01 (3)"
-					},
-					"customProps":{
-						"layer":0,
-						"translate":[
-							22.53,
-							0,
-							-25.22
-						],
-						"rotation":[
-							0,
-							0.528323,
-							0,
-							0.8490435
-						],
-						"scale":[
-							1,
-							1,
-							1
-						],
-						"meshPath":"Assets/Models/Building01-Building01.lm",
-						"materials":[
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingWhite.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGrey.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingMetal.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGlass.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingStone.lmat"
-							}
-						]
-					},
-					"components":{
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.01949681,
-								1.390417,
-								0.2770226
-							],
-							"size":[
-								3.129945,
-								2.937592,
-								4.60307
-							]
-						},
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								2.105466,
-								0.7685058,
-								-0.3308745
-							],
-							"size":[
-								1.199753,
-								1.693769,
-								2.020195
-							]
-						},
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.01949681,
-								1.390417,
-								0.2770226
-							],
-							"size":[
-								3.129945,
-								2.937592,
-								4.60307
-							]
-						}
-					},
-					"child":[]
-				},
-				{
-					"type":"MeshSprite3D",
-					"props":{
-						"isStatic":true,
-						"name":"Building02"
-					},
-					"customProps":{
-						"layer":0,
-						"translate":[
-							-1.34,
-							0,
-							10.16
-						],
-						"rotation":[
-							1.424541E-08,
-							-0.7599043,
-							1.657537E-08,
-							0.650035
-						],
-						"scale":[
-							1,
-							1,
-							1
-						],
-						"meshPath":"Assets/Models/Building02-Barracks.lm",
-						"materials":[
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingWhite.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGlass.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGrey.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingMetal.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingStone.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/OilDrums.lmat"
-							}
-						]
-					},
-					"components":{
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.5452382,
-								1.339948,
-								-0.5395352
-							],
-							"size":[
-								7.132517,
-								2.836653,
-								4.145877
-							]
-						},
-						"Animator":{
-							"avatar":{
-								"path":"Assets/Models/Building02-Building02-Building02Avatar.lav",
-								"linkSprites":{}
-							},
-							"clipPaths":[],
-							"playOnWake":true
-						}
-					},
-					"child":[]
-				},
-				{
-					"type":"MeshSprite3D",
-					"props":{
-						"isStatic":true,
-						"name":"Building02 (1)"
-					},
-					"customProps":{
-						"layer":0,
-						"translate":[
-							5.66,
-							0,
-							12.26
-						],
-						"rotation":[
-							1.928034E-08,
-							-0.6510388,
-							-1.029285E-08,
-							-0.7590445
-						],
-						"scale":[
-							1,
-							1,
-							1
-						],
-						"meshPath":"Assets/Models/Building02-Barracks.lm",
-						"materials":[
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingWhite.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGlass.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGrey.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingMetal.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingStone.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/OilDrums.lmat"
-							}
-						]
-					},
-					"components":{
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.5768968,
-								1.339948,
-								-0.5422933
-							],
-							"size":[
-								7.161574,
-								2.836653,
-								4.14037
-							]
-						},
-						"Animator":{
-							"avatar":{
-								"path":"Assets/Models/Building02-Building02 (1)-Building02Avatar.lav",
-								"linkSprites":{}
-							},
-							"clipPaths":[],
-							"playOnWake":true
-						}
-					},
-					"child":[]
-				},
-				{
-					"type":"MeshSprite3D",
-					"props":{
-						"isStatic":true,
-						"name":"Building02 (2)"
-					},
-					"customProps":{
-						"layer":0,
-						"translate":[
-							-8.56,
-							0,
-							36.32
-						],
-						"rotation":[
-							1.950111E-08,
-							-0.6675044,
-							-9.868178E-09,
-							-0.7446059
-						],
-						"scale":[
-							1,
-							1,
-							1
-						],
-						"meshPath":"Assets/Models/Building02-Barracks.lm",
-						"materials":[
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingWhite.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGlass.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingGrey.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingMetal.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingStone.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/OilDrums.lmat"
-							}
-						]
-					},
-					"components":{
-						"BoxCollider":{
-							"isTrigger":false,
-							"center":[
-								-0.5768968,
-								1.339948,
-								-0.5422933
-							],
-							"size":[
-								7.161574,
-								2.836653,
-								4.14037
-							]
-						},
-						"Animator":{
-							"avatar":{
-								"path":"Assets/Models/Building02-Building02 (2)-Building02Avatar.lav",
-								"linkSprites":{}
-							},
-							"clipPaths":[],
-							"playOnWake":true
-						}
-					},
-					"child":[]
-				},
-				{
-					"type":"MeshSprite3D",
-					"props":{
-						"isStatic":true,
-						"name":"Radar"
-					},
-					"customProps":{
-						"layer":0,
-						"translate":[
-							-6.97,
-							0,
-							21.34
-						],
-						"rotation":[
-							0,
-							0,
-							0,
-							-1
-						],
-						"scale":[
-							1,
-							1,
-							1
-						],
-						"meshPath":"Assets/Models/Radar-RadarSphere.lm",
-						"materials":[
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingWhite.lmat"
-							},
-							{
-								"type":"Laya.BlinnPhongMaterial",
-								"path":"Assets/Materials/BuildingMetal.lmat"
-							}
-						]
-					},
-					"components":{},
-					"child":[]
+			"child":[]
+		},
+		{
+			"type":"MeshSprite3D",
+			"props":{
+				"isStatic":false,
+				"name":"Cube"
+			},
+			"customProps":{
+				"layer":0,
+				"translate":[
+					-4.769653,
+					0.55,
+					-1.96
+				],
+				"rotation":[
+					0,
+					0,
+					0,
+					-1
+				],
+				"scale":[
+					1,
+					1,
+					1
+				],
+				"meshPath":"Library/unity default resources-Cube.lm",
+				"materials":[
+					{
+						"type":"Laya.StandardMaterial",
+						"path":"Resources/unity_builtin_extra.lmat"
+					}
+				]
+			},
+			"components":{
+				"BoxCollider":{
+					"isTrigger":false,
+					"center":[
+						0,
+						0,
+						0
+					],
+					"size":[
+						1,
+						1,
+						1
+					]
 				}
-			]
+			},
+			"child":[]
 		}
 	]
 }

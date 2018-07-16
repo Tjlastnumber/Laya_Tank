@@ -13,7 +13,7 @@
 		"renderQueue":1,
 		"albedoIntensity":1,
 		"enableLighting":true,
-		"shininess":0.078125,
+		"shininess":0.09,
 		"textures":[],
 		"vectors":[
 			{

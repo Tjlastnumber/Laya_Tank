@@ -13,7 +13,7 @@ class LayaAir3D {
 
         //适配模式
         Laya.stage.scaleMode = Laya.Stage.SCALE_FULL;
-        Laya.stage.screenMode = Laya.Stage.SCREEN_NONE;
+        Laya.stage.screenMode = Laya.Stage.SCREEN_HORIZONTAL;
 
         //开启统计信息
         Laya.Stat.show();
@@ -26,14 +26,18 @@ class LayaAir3D {
         this._tank = Laya.loader.getRes(this._TANK);
         
         this._scene.addChild(this._tank);
-        this._tank.addComponent(TankMovement);
         
         var camera: Laya.Camera = this._scene.getChildByName("Main Camera") as Laya.Camera;
         var control = camera.addComponent(CameraControl) as CameraControl;
         control.Target = this._tank;
-        // camera.addComponent(CameraMoveScript);
+
+        var tankMovement = this._tank.addComponent(TankMovement) as TankMovement;
+        tankMovement.camera = camera;
 
         Laya.stage.addChild(this._scene);
+        var sceneScript = this._scene.addScript(SceneScript) as SceneScript;
+        sceneScript.camera = camera;
+        sceneScript.ray = tankMovement._ray;
     }
 }
 new LayaAir3D();
