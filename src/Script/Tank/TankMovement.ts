@@ -16,22 +16,67 @@ class TankMovement extends Laya.Script {
     _tank: Laya.Sprite3D;
 
     /**
-     * 射线
+     * 射线队列
      */
-    _ray:Laya.Ray;
+    RayArray: Array<Laya.Ray>;
+
+    RayForward: Array<Laya.Vector3> = new Array<Laya.Vector3>();
+    /**
+     * 射线1
+     */
+    _ray1:Laya.Ray;
+    /**
+     * 射线2
+     */
+    _ray2:Laya.Ray;
+    /**
+     * 射线3
+     */
+    _ray3:Laya.Ray;
+    /**
+     * 射线4
+     */
+    _ray4:Laya.Ray;
+
+    /**
+     * 碰撞盒8个定点坐标
+     */
+    _boxColliderCorners: Array<Laya.Vector3>;
 
     /**
      * 碰撞信息
      */
     _outHitInfo:Laya.RaycastHit;
 
-    public camera: Laya.Camera;
+    public BoxCollider: Laya.BoxCollider;
+
+    public Camera: Laya.Camera;
 
     private phasorSprite3D:Laya.PhasorSpriter3D;
 
     constructor() {
         super();
-        this._ray = new Laya.Ray(new Laya.Vector3(0, 0, 0), new Laya.Vector3(0, -2, 0));
+        this._ray1 = new Laya.Ray(new Laya.Vector3(0, 0, 0), new Laya.Vector3(0, -2, .1));
+        this._ray2 = new Laya.Ray(new Laya.Vector3(0, 0, 0), new Laya.Vector3(0, -2, -.1));
+        this._ray3 = new Laya.Ray(new Laya.Vector3(0, 0, 0), new Laya.Vector3(0, -2, -.1));
+        this._ray4 = new Laya.Ray(new Laya.Vector3(0, 0, 0), new Laya.Vector3(0, -2, .1));
+        this.RayArray = new Array<Laya.Ray>();
+        this.RayArray.push(this._ray1);
+        this.RayArray.push(this._ray2);
+        this.RayArray.push(this._ray3);
+        this.RayArray.push(this._ray4);
+
+        this._boxColliderCorners = [
+            new Laya.Vector3(),
+            new Laya.Vector3(),
+            new Laya.Vector3(),
+            new Laya.Vector3(),
+            new Laya.Vector3(),
+            new Laya.Vector3(),
+            new Laya.Vector3(),
+            new Laya.Vector3()
+        ];
+
         this._outHitInfo = new Laya.RaycastHit();
         this.phasorSprite3D = new Laya.PhasorSpriter3D();
     }
@@ -39,20 +84,24 @@ class TankMovement extends Laya.Script {
     public _initialize(owner: Laya.Sprite3D): void {
         super._initialize(owner);
         this._tank = owner as Laya.Sprite3D;
+        var tank = this._tank.getChildByName('Tank') as Laya.Sprite3D;
+        this.BoxCollider = tank.getComponentByType(Laya.BoxCollider) as Laya.BoxCollider;
+
+        this.BoxCollider.boundBox.getCorners(this._boxColliderCorners);
+        this.RayArray.forEach((ray,index) => {
+            ray.origin = this._boxColliderCorners[index];
+            var angleForward = new Laya.Vector3();
+            Laya.Vector3.subtract(ray.origin, this._tank.transform.position, angleForward);
+            this.RayForward.push(angleForward);
+        });
+
+        tank.removeComponentByType(Laya.BoxCollider);
     }
 
     public _update(state: Laya.RenderState): void {
         super._update(state);
         this.move(state.elapsedTime);
         this.trun(state.elapsedTime);
-
-        // this.phasorSprite3D.begin(Laya.WebGLContext.LINES, this.camera);
-        // var tankPos = new Laya.Vector3(this._tank.transform.position.x, 0, this._tank.transform.position.z);
-        // var pos = new Laya.Vector3(this._ray.origin.x + 100, this._ray.origin.y, this._ray.origin.z + 100);
-        // this.phasorSprite3D.line(this._ray.origin, new Laya.Vector4(1, 0, 0, 1), pos, new Laya.Vector4(1, 0, 0, 1));
-        // console.log(pos.x + ',' + pos.y + ',' + pos.z);
-        // console.log(this._ray.direction.x + ',' + this._ray.direction.y + ',' + this._ray.direction.z);
-        // this.phasorSprite3D.end();
     }
 
     /**
@@ -89,19 +138,21 @@ class TankMovement extends Laya.Script {
 
 
     private _collision(offset: Laya.Vector3) {
-        //射线原点
-        var rayOrigin:Laya.Vector3 = new Laya.Vector3(0,0,0);
-        //根据角色位置计算射线原点
-        Laya.Vector3.add(this._tank.transform.position, new Laya.Vector3(offset.x, 1, offset.z), rayOrigin);
+        var result = [];
         //射线原点位置更新
-        this._ray.origin = rayOrigin;
+        this.RayArray.forEach((ray, index) => {
+            var newOrigin = new Laya.Vector3(0, 0, 0);
+            Laya.Vector3.add(this._tank.transform.position, this.RayForward[index], newOrigin);
+            Laya.Vector3.add(newOrigin, new Laya.Vector3(offset.x, 2, offset.z), newOrigin);
+            ray.origin = newOrigin;
+            Laya.Physics.rayCast(ray, this._outHitInfo, 2);
+            if (this._outHitInfo.distance > 0) console.log(this._outHitInfo.sprite3D.name);
+            result.push(this._outHitInfo.distance > 0);
+        })
 
-        this._ray.direction = new Laya.Vector3(this._tank.transform.forward.x * -1, -0.5, this._tank.transform.forward.z * -1);
-
-        Laya.Physics.rayCast(this._ray, this._outHitInfo, 1.5);
-
-        return this._outHitInfo.distance > 0;
+        return result.some(p => p);
     }
+
 
     private _verticalForceValue = 0;
     /**

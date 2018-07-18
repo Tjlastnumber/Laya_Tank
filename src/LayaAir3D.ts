@@ -32,12 +32,12 @@ class LayaAir3D {
         control.Target = this._tank;
 
         var tankMovement = this._tank.addComponent(TankMovement) as TankMovement;
-        tankMovement.camera = camera;
+        tankMovement.Camera = camera;
 
         Laya.stage.addChild(this._scene);
         var sceneScript = this._scene.addScript(SceneScript) as SceneScript;
         sceneScript.camera = camera;
-        sceneScript.ray = tankMovement._ray;
+        sceneScript.RayArray = tankMovement.RayArray;
     }
 }
 new LayaAir3D();
