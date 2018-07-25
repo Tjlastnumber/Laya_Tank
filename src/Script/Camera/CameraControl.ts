@@ -9,7 +9,6 @@ class CameraControl extends Laya.Script{
     private _targetDistance: Laya.Vector3;
     // 捕捉目标
     public Target: Laya.Sprite3D;
-    
 
     constructor(){
         super();

@@ -47,21 +47,7 @@
 					1
 				]
 			},
-			"components":{
-				"BoxCollider":{
-					"isTrigger":false,
-					"center":[
-						0,
-						0.76,
-						0
-					],
-					"size":[
-						1.5,
-						1.74,
-						1.5
-					]
-				}
-			},
+			"components":{},
 			"child":[
 				{
 					"type":"Sprite3D",
@@ -249,6 +235,55 @@
 						]
 					},
 					"components":{},
+					"child":[]
+				},
+				{
+					"type":"MeshSprite3D",
+					"props":{
+						"isStatic":false,
+						"name":"TankCollider"
+					},
+					"customProps":{
+						"layer":0,
+						"translate":[
+							0,
+							0.967,
+							-0.034
+						],
+						"rotation":[
+							7.909045E-16,
+							0,
+							0,
+							-1
+						],
+						"scale":[
+							1.98,
+							1.69,
+							2.24
+						],
+						"meshPath":"Library/unity default resources-Cube.lm",
+						"materials":[
+							{
+								"type":"Laya.StandardMaterial",
+								"path":"Assets/Materials/Fade.lmat"
+							}
+						]
+					},
+					"components":{
+						"BoxCollider":{
+							"isTrigger":false,
+							"center":[
+								0,
+								0,
+								0
+							],
+							"size":[
+								0.9999999,
+								0.9999999,
+								1
+							]
+						}
+					},
 					"child":[]
 				}
 			]
