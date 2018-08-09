@@ -1,6 +1,7 @@
 // 程序入口
 class LayaAir3D {
 
+    _CONTROLLER: string = "res/atlas/comp.atlas";
     _SCENE: string = "LayaScene_GameScene/GameScene.ls";
     _TANK: string = "LayaScene_tank/tank.lh";
 
@@ -17,8 +18,12 @@ class LayaAir3D {
 
         //开启统计信息
         Laya.Stat.show();
-
         Laya.loader.create([this._SCENE, this._TANK], Laya.Handler.create(this, this._sceneLoadCompleted));
+    }
+
+    _controllerLoadCompleted():void{
+        var controller = new ControllerUI(Laya.stage);
+        Laya.stage.addChild(controller);
     }
 
     _sceneLoadCompleted():void {
@@ -31,12 +36,9 @@ class LayaAir3D {
         var control = camera.addComponent(CameraControl) as CameraControl;
         control.Target = this._tank;
 
-        var tank = this._tank.getChildByName('Tank') as Laya.Sprite3D;
-
-        var tankCollider = tank.getChildByName('TankCollider') as Laya.MeshSprite3D;
-        tankCollider.addComponent(Laya.Rigidbody);
-
-        var colliderScript = tankCollider.addComponent(ColliderScript) as ColliderScript;
+        var tank = this._tank.getChildByName('Tank').getChildByName('TankCollider') as Laya.MeshSprite3D;
+        tank.addComponent(Laya.Rigidbody) as Laya.Rigidbody;
+        var colliderScript = tank.addComponent(ColliderScript) as ColliderScript;
         colliderScript.Tank = this._tank;
 
         var tankMovement = this._tank.addComponent(TankMovement) as TankMovement;
@@ -45,6 +47,8 @@ class LayaAir3D {
         Laya.stage.addChild(this._scene);
         var sceneScript = this._scene.addScript(SceneScript) as SceneScript;
         sceneScript.camera = camera;
+
+        Laya.loader.load(this._CONTROLLER,Laya.Handler.create(this,this._controllerLoadCompleted));
     }
 }
 new LayaAir3D();

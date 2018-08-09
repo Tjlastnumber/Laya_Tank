@@ -15,7 +15,8 @@ class TankMovement extends Laya.Script {
      */
     _tank: Laya.Sprite3D;
     _tankCollider: Laya.MeshSprite3D;
-    _tankColliderLocalPosition: Laya.Vector3;
+    _colliderScript: ColliderScript;
+    _colliderLocalPos: Laya.Vector3 = new Laya.Vector3();
  
     public Camera: Laya.Camera;
     public isMove: Boolean = true;
@@ -28,7 +29,7 @@ class TankMovement extends Laya.Script {
         super._initialize(owner);
         this._tank = owner as Laya.Sprite3D;
         this._tankCollider = this._tank.getChildByName("Tank").getChildByName('TankCollider') as Laya.MeshSprite3D;
-        this._tankColliderLocalPosition = this._tankCollider.transform.localPosition;
+        this._colliderScript = this._tankCollider.getComponentByType(ColliderScript) as ColliderScript;
     }
 
     public _update(state: Laya.RenderState): void {
@@ -42,21 +43,15 @@ class TankMovement extends Laya.Script {
      * @param elapsedTime 
      */
     protected move(elapsedTime: number): void {
-        var forward = this._getVerticalForce(elapsedTime);
-        this._tankCollider.transform.position.x = this._tank.transform.position.x; 
-        this._tankCollider.transform.position.z = this._tank.transform.position.z; 
+        var force = this._getVerticalForce(elapsedTime);
                       
-        var x = this._tank.transform.forward.x * this._moveSpeed * elapsedTime / 1000 * forward;
-        var y = this._tank.transform.forward.y * this._moveSpeed * elapsedTime / 1000 * forward;
-        var z = this._tank.transform.forward.z * this._moveSpeed * elapsedTime / 1000 * forward;
+        var x = this._tank.transform.forward.x * this._moveSpeed * elapsedTime / 1000 * force;
+        var y = this._tank.transform.forward.y * this._moveSpeed * elapsedTime / 1000 * force;
+        var z = this._tank.transform.forward.z * this._moveSpeed * elapsedTime / 1000 * force;
 
         var offset = new Laya.Vector3(x, y, z);
 
-        this._tankCollider.transform.translate(offset, false);
-
-        if (!this.isMove) { return; }
-
-        this._tank.transform.translate(offset, false);
+        this._colliderScript.movePosition(this._tank, offset);
     }
 
     /**
@@ -64,20 +59,14 @@ class TankMovement extends Laya.Script {
      * @param elapsedTime 
      */
     protected trun(elapsedTime: number): void {
-        var forward = this._getHorizontalForce(elapsedTime);
+        var force = this._getHorizontalForce(elapsedTime);
 
-        var turn:number = forward * this._trunSpeed * elapsedTime / 1000;
+        var turn:number = force * this._trunSpeed * elapsedTime / 1000;
 
         var turnQuaternion: Laya.Quaternion = new Laya.Quaternion(0, turn, 0);
 
         this._tank.transform.rotate(new Laya.Vector3(turnQuaternion.x, turnQuaternion.y, turnQuaternion.z), true, false);
     }
-
-
-    private _collision(offset: Laya.Vector3) {
-        
-    }
-
 
     private _verticalForceValue = 0;
     /**
@@ -85,14 +74,16 @@ class TankMovement extends Laya.Script {
      * @param elapsedTime 
      */
     private _getVerticalForce(elapsedTime: number): number {
-        if (Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.S)) {
+        // if (Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.S)) {
+        if (ControllerUI.DOWN) {
             this._verticalForceValue = this._verticalForceValue + 1 / elapsedTime >= 1 ?
-                1 :
+                this._verticalForceValue :
                 this._verticalForceValue + 1 / elapsedTime;
         }
-        else if (Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.W)) {
+        else if (ControllerUI.UP) {
+        // else if (Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.W)) {
             this._verticalForceValue = this._verticalForceValue - 1 / elapsedTime <= -1 ?
-                -1 :
+                this._verticalForceValue :
                 this._verticalForceValue - 1 / elapsedTime;
         } else {
             if (this._verticalForceValue > 0) {
@@ -114,12 +105,14 @@ class TankMovement extends Laya.Script {
      * @param elapsedTime 
      */
     private _getHorizontalForce(elapsedTime: number): number {
-        if (Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.A)) {
+        // if (Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.A)) {
+        if (ControllerUI.LEFT) {
             this._horizontalForceValue = this._horizontalForceValue + 1 / elapsedTime >= 1 ?
                 1 :
                 this._horizontalForceValue + 1 / elapsedTime;
         }
-        else if (Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.D)) {
+        // else if (Laya.KeyBoardManager.hasKeyDown(Laya.Keyboard.D)) {
+        else if (ControllerUI.RIGHT) {
             this._horizontalForceValue = this._horizontalForceValue - 1 / elapsedTime <= -1 ?
                 -1 :
                 this._horizontalForceValue - 1 / elapsedTime;
